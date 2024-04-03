@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="body">
+        <!-- logo -->
+        <div class="logo">
+            <p>Movie<span>planet</span></p>
+        </div>
+        <div class="search-container">
+            <div class="search-element">
+                <form>
+                    <label for="movie-search-box">Search:</label>
+                    <input type="text" id="movie-search-box" name="searchTerm" placeholder="Enter movie title...">
+                    <button type="button" id="search-button">Search</button>
+                </form>
+            </div>
+            <div id="search-list" class="hide-search-list"></div>
+        </div>
+        <!-- movie list -->
+        <div id="result-grid" class="movie-list"></div>
+        <div id="movie-info"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
